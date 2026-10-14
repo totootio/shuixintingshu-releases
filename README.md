@@ -6,12 +6,11 @@
 
 请前往 [Releases](https://github.com/totootio/shuixintingshu-releases/releases) 下载最新版本。
 
-每个版本提供两个安装包：
+每个版本发布一个安装包：
 
 | 文件 | 说明 |
 |---|---|
-| `shuixintingshu-v*.apk` | R8 混淆版（体积小、启动快，推荐大多数用户使用） |
-| `shuixintingshu-v*-nmmp-hardened.apk` | nmmp dex2c 加固版（插件引擎方法体编译为 native 代码，防逆向；首次启动略慢） |
+| `shuixintingshu-v*.apk` | nmmp dex2c 加固版（插件引擎方法体编译为 native 代码 + opcode 随机化，防逆向）。首次启动略慢属正常现象 |
 
 ## 安装注意
 
